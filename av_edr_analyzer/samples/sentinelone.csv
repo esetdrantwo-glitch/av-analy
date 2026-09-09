@@ -1,0 +1,3 @@
+Threat_Created_At,Threat_Name,Threat_Classification,Mitigation_Status,Endpoint_Name,Username,File_Path,File_SHA256
+2024-05-03T07:00:00Z,Suspicious PowerShell Encoded Command,Suspicious,Not Mitigated,HOST-05,corp\reza,C:\Windows\Temp\a.ps1,cccc3333
+2024-05-04T12:12:00Z,Cobalt Strike Beacon,Malicious,Killed,HOST-06,corp\neda,C:\Users\neda\beacon.exe,dddd4444

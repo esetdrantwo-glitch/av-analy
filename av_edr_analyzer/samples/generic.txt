@@ -1,0 +1,3 @@
+2024-05-01 06:00:00 [Info] scan completed on HOST-07 - clean
+2024-05-01 06:30:00 [Critical] Threat: Ransomware.LockBit detected and blocked on HOST-08
+2024-05-01 07:15:00 suspicious process rundll32.exe launched with encoded powershell payload on HOST-09

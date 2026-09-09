@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "detect_id": "ldt:1",
+      "timestamp": "2024-05-01T09:20:00Z",
+      "severity_name": "High",
+      "detect_name": "Credential Access via Mimikatz",
+      "status": "detected, not blocked",
+      "process_name": "mimikatz.exe",
+      "cmdline": "mimikatz.exe sekurlsa::logonpasswords",
+      "hostname": "HOST-03",
+      "user_name": "svc_backup",
+      "sha256_hash": "aaaa1111"
+    },
+    {
+      "detect_id": "ldt:2",
+      "timestamp": "2024-05-02T11:00:00Z",
+      "severity_name": "Critical",
+      "detect_name": "Ransomware Behavior - Shadow Copy Deletion",
+      "status": "blocked",
+      "process_name": "vssadmin.exe",
+      "cmdline": "vssadmin delete shadows /all /quiet",
+      "hostname": "HOST-04",
+      "user_name": "administrator",
+      "sha256_hash": "bbbb2222"
+    }
+  ]
+}
